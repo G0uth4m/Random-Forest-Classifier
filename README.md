@@ -38,6 +38,11 @@ We consider the predictions of all the 100 trees. For each test sample, we take 
 
 As a result, we were able to improve the accuracy in predictions and also precision and recall scores.
 
+## Code dependencies
+* _sklearn.model_selection.train_test_split_ for splitting the dataset
+* _sklearn.metrics.classification_report_ for measuring performance of classifier
+* _sklearn.utils.resample_ for creating subsamples from original dataset
+
 ## Author
 * **Goutham** - [G0uth4m](https://github.com/G0uth4m)
 * **Monish Reddy** - [MONISHREDDYBS](https://github.com/MONISHREDDYBS)
