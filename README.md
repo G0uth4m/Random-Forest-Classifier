@@ -32,9 +32,9 @@ To find the optimal feature and threshold such that the Gini impurity is minimiz
 ## Random Forests
 Decision trees have a common problem of overfitting.
 
-So, we bring in ensemble learning. We build number of decision trees which are constructed using subsamples of the original dataset with replacement (same size as original dataset).
+So, we bring in ensemble learning. We build a number of decision trees which are constructed using subsamples of the original dataset with replacement (same size as original dataset).
 
-We consider the predictions of all the 100 trees. For each test sample, we take the majority vote and then predict for that particular test sample.
+We consider the predictions of all the trees. For each test sample, we take the majority vote and then predict for that particular test sample.
 
 As a result, we were able to improve the accuracy in predictions and also precision and recall scores.
 
